@@ -46,10 +46,11 @@ class ViewController: UIViewController {
 
 //示例2，报错
 //        let list : [GenericProtocol] = []
- 
+// 
 //示例3，报错
 //        let stringMagic = StringMagic()
-//        if ((stringMagic as? GenericProtocol) != nil) {
+//        let anyArr : [Any] = [stringMagic as Any]
+//        if let item = anyArr.first as? GenericProtocol {
 //            
 //        }
         
